@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="btnlink">
+        <button class="btn-links" id="uppercase">Uppercase</button>
+        <button class="btn-links" id="lowercase">Lowercase</button>
+        <button class="btn-links" id="capitalize">Capitalize</button>
+        <button class="btn-links" id="reverseWords">Reverse words</button>
+        <button class="btn-links" id="reversChars">Reverse chars</button>
+        <button class="btn-links" id="removeSpaces">Remove spaces</button>
+      </div>
+
+      <div class="text-and-replace">
+        <div class="text">
+          <textarea
+            type="text"
+            class="textarea"
+            id="textID"
+            placeholder="type text"
+          ></textarea>
+        </div>
+
+        <div class="replaceWords">
+          <input type="From" id="searchFrom" placeholder="From" />
+          <input type="To" id="searchTO" placeholder="To" />
+          <button id="replace">Replace</button>
+        </div>
+
+        <div class="characters">
+          <p class="charactersTotal">Total characters:</p>
+          <p class="wordsTotal">Total words:</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

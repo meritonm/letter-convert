@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 20px auto;
+  max-width: 130rem;
+  /* padding: 20px; */
+  display: flex;
+}
+
+.btnlink {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin-top: 20px;
+}
+.btn-links {
+  margin-top: 10px;
+  padding: 15px;
+}
+
+#textID {
+  border-radius: 1px solid black;
+  border-radius: 5px;
+  width: 500px;
+  height: 100px;
+}
+.text {
+  margin-top: 30px;
+}
+
+.textarea {
+  resize: none;
+  margin-left: 20px;
+}
+
+.replaceWords {
+  margin-top: 10px;
+  margin-left: 22px;
+}
+
+.characters {
+  margin-top: 10px;
+  margin-left: 22px;
+}
